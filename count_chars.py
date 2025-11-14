@@ -1,9 +1,9 @@
-Letters = input
-Chaves_Letras = {}
+frase = input()
 
+dicionario = {}
+for letra in frase:
+    if letra not in dicionario:
+        dicionario[letra] = frase.count(letra)
 
-for i in Chaves_Letras:
-    if i == i :
-        print (i ) 
+print(dicionario)
 
-print (Chaves_Letras)
